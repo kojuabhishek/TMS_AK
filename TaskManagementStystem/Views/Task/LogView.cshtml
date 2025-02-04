@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Log Viewer";
+}
+
+<h2 class="mb-4">Log Viewer</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Time Stamp</th>
+            <th>Message</th>
+            <th>Message Template</th>
+        </tr>
+    </thead>
+    <tbody id="logTable">
+    </tbody>
+</table>
+
+<div class="text-center mt-3">
+    <button id="prevPage" class="btn btn-secondary">Previous</button>
+    <span>Page <span id="currentPage">1</span> of <span id="totalPages">1</span></span>
+    <button id="nextPage" class="btn btn-secondary">Next</button>
+</div>
+
+@section Scripts {
+    <script src="~/js/log.js"></script>
+}
