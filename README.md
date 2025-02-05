@@ -30,5 +30,6 @@ The **Task Management System** is an ASP.NET Core MVC application designed to ma
 
 ### 1. Clone the Repository
 
-Clone the repository to your local machine
+Clone the repository to your local machine and change connectionstring
+Create db  named 'TMS' in ssms then
 Run the .sql script in ssms
